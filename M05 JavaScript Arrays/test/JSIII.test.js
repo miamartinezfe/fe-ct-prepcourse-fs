@@ -207,9 +207,7 @@ describe('JAVASCRIPT III', function () {
          expect(mesesDelAño(ok)).toEqual(['Marzo', 'Noviembre', 'Enero']);
       });
       it('Debe retornar el mensaje si alguno de los meses no se encuentra en el arreglo', function () {
-         expect(mesesDelAño(notOk)).toEqual(
-            'No se encontraron los meses pedidos'
-         );
+         expect(mesesDelAño(notOk)).toEqual('No se encontraron los meses pedidos');
       });
    });
 
